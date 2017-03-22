@@ -17,7 +17,6 @@ function notifyMe() {
 		var notification = new Notification('Dukascopy', {
 		icon: 'http://www.lesolstice.ch/wp-content/uploads/2016/06/Swiss-flag.png',
 		body: message.value,
-		message.onshow = function() { setTimeout(message.close, 3000) }
 	});  
 
     notification.onclick = function () {
