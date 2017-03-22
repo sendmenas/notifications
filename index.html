@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="css.css">
+	<title>Notifications</title>
+</head>
+<body>
+	<div>
+		<button onclick="notifyMe()">Send notifications</button>
+		<input type="text" id="notification" value="new notification"></input>
+	</div>
+	<div>
+		<button onclick="myFunc = setInterval(notifyMe, 3000)">Start endless notifications</button>
+		<button onclick="clearInterval(myFunc)">Stop endless notifications</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
