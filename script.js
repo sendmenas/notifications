@@ -21,7 +21,7 @@ function notifyMe() {
 	setTimeout(notification.close.bind(notification), 3000);
 
     notification.onclick = function () {
-      window.open("https://www.dukascopy.com/");      
+      //window.open("https://www.dukascopy.com/");      
     };
   }
 }
