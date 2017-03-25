@@ -20,8 +20,10 @@ function notifyMe() {
 	});
 	setTimeout(notification.close.bind(notification), 3000);
 
-    //notification.onclick = function () {
+    notification.onclick = function () {
+	window.focus();
+	this.cancel();
       //window.open("https://www.dukascopy.com/");      
-    //};
+    };
   }
 }
