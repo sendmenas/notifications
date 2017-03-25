@@ -18,7 +18,7 @@ function notifyMe() {
 		icon: 'http://www.lesolstice.ch/wp-content/uploads/2016/06/Swiss-flag.png',
 		body: message.value,
 	});
-	setTimeout(notification.close.bind(notification), 3000);
+	//setTimeout(notification.close.bind(notification), 3000);
 
     notification.onclick = function () {
 	window.focus();
