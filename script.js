@@ -22,7 +22,6 @@ function notifyMe() {
 
     notification.onclick = function () {
 	window.focus();
-	this.cancel();
       //window.open("https://www.dukascopy.com/");      
     };
   }
